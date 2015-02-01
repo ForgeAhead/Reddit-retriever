@@ -1,7 +1,10 @@
+#!usr/bin/python
+
 import praw
 import time
 import Tkinter
 import tkMessageBox
+imprt webbrowser
 
 r = praw.Reddit('Keyword search in new posts per subreddit by /u/VeiledFortune')
 
@@ -27,4 +30,4 @@ while True:
 			B1.pack()
 
 			top.mainloop()
-	time.sleep(900)
+	time.sleep(300)
